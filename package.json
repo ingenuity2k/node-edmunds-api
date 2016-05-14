@@ -1,6 +1,6 @@
 {
   "name": "node-edmunds-api",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Node.js client for the Edmunds public API",
   "main": "lib/index.js",
   "scripts": {
@@ -10,23 +10,14 @@
     "type": "git",
     "url": "https://github.com/rfink/node-edmunds-api.git"
   },
-  "keywords": [
-    "edmunds",
-    "api",
-    "node",
-    "js",
-    "http",
-    "client"
-  ],
-  "author": "Ryan Fink <ryanjfink@gmail.com>",
+  "author": "Marcel Baur <marcel.baur@soom-it.ch>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/rfink/node-edmunds-api/issues"
-  },
-  "homepage": "https://github.com/rfink/node-edmunds-api",
   "dependencies": {
+    "colors": "^1.1.2",
+    "readline-sync": "^1.4.2",
     "superagent": "^0.18.0",
-    "underscore": "^1.6.0"
+    "underscore": "^1.6.0",
+    "util": "^0.10.3"
   },
   "devDependencies": {
     "should": "^4.0.4",

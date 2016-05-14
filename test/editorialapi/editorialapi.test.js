@@ -13,7 +13,7 @@ var server = require('../server');
 /* ~ Locals ~ */
 
 var port = 4001;
-var client = new EdmundsClient({ baseUrl: 'localhost:' + port, apiKey: 'x' });
+var client = new EdmundsClient({ baseUrl: 'localhost:' + port, apiKey: 'tf45g986ttqefx389t36ppmg' });
 
 describe('Editorial API Test', function() {
   beforeEach(function(done) {

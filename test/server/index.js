@@ -1,5 +1,5 @@
 
-/* ~ Deps ~ */
+/* ~ Dependencies ~ */
 
 var http = require('http');
 
